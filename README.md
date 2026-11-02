@@ -100,7 +100,7 @@ content-pipeline-builder/
 │   └── skill-routing.md              # 阶段 → 能力 → 证据 → 何时不用
 └── assets/
     ├── platform_profile.template.yaml # 平台画像卡模板
-    ├── banner.png
+    ├── banner-production.png
     └── pipeline-overview.svg
 ```
 
@@ -215,7 +215,7 @@ content-pipeline-builder/
 │   └── skill-routing.md              # Stage → capability → evidence → when not to use
 └── assets/
     ├── platform_profile.template.yaml # Platform profile template
-    ├── banner.png
+    ├── banner-production.png
     └── pipeline-overview.svg
 ```
 
