@@ -1,0 +1,55 @@
+# 平台画像卡模板
+# 复制到用户项目根目录，命名为 platform_profile.yaml
+# 不确定的字段写 "待验证"，不要凭印象填数字
+
+platform: <平台名>
+
+# text = 文字主导型（读者在正文完成阅读）
+# image = 图片主导型（读者在图片卡片完成阅读）
+carrier: text
+
+# html | markdown | image_only
+render_target: html
+
+# 该平台编辑器已知会破坏什么，逐条列
+render_redlines:
+  - <例：剥离 flex 布局>
+  - <例：禁止原生列表>
+  - <例：屏蔽外链图>
+
+image_policy:
+  # inline_base64 | external_url | platform_upload
+  host: inline_base64
+  # 平台硬限；没有就写 none
+  ratio_range: <待验证>
+  # 移动端可读下限
+  min_font_pt: <待验证>
+
+# 该平台的叙事骨架
+structure_skeleton:
+  - <单元名称>
+
+compliance:
+  banned_terms:
+    - <禁词/诱导词>
+  identity_restrictions:
+    - <资质敏感项，如禁止证券代码、禁止导流联系方式>
+
+delivery:
+  # programmable_draft | manual_paste | fully_manual
+  capability: manual_paste
+  endpoint: <接口或人工路径>
+
+analytics:
+  # 该平台数据成熟时点（小时）
+  snapshot_hours: <待验证>
+  # xls | csv | screenshot | api
+  export_format: <待验证>
+  fields:
+    required:
+      - <发布日期>
+      - <标题>
+      - <核心指标>
+    optional:
+      - <曝光量>
+      - <渠道>

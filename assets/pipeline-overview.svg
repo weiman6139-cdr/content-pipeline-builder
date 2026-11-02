@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif">
+  <rect width="1280" height="620" fill="#f7f9fc"/>
+  <text x="60" y="46" font-size="22" font-weight="700" fill="#17324d">半自动内容生产流水线 · 13 步搭建循环</text>
+  <text x="60" y="74" font-size="13" fill="#5b7083">每一步产出文件并通过验收，再进入下一步 / one step, one artifact, one gate</text>
+
+  <!-- Row 1 -->
+  <g>
+    <rect x="60" y="110" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="60" y="110" width="6" height="84" rx="3" fill="#d98b2b"/>
+    <text x="78" y="136" font-size="11" fill="#7a8ea1">S0</text>
+    <text x="78" y="160" font-size="14" font-weight="700" fill="#17324d">定位与画像卡</text>
+    <text x="78" y="180" font-size="10.5" fill="#7a8ea1">平台 / 载体 / 目标</text>
+
+    <rect x="228" y="110" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="228" y="110" width="6" height="84" rx="3" fill="#2F6F9F"/>
+    <text x="246" y="136" font-size="11" fill="#7a8ea1">S1</text>
+    <text x="246" y="160" font-size="14" font-weight="700" fill="#17324d">立规矩</text>
+    <text x="246" y="180" font-size="10.5" fill="#7a8ea1">五条底层原则</text>
+
+    <rect x="396" y="110" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="396" y="110" width="6" height="84" rx="3" fill="#2F6F9F"/>
+    <text x="414" y="136" font-size="11" fill="#7a8ea1">S2</text>
+    <text x="414" y="160" font-size="14" font-weight="700" fill="#17324d">研究底座</text>
+    <text x="414" y="180" font-size="10.5" fill="#7a8ea1">快照 / 台账 / 候选池</text>
+
+    <rect x="564" y="110" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="564" y="110" width="6" height="84" rx="3" fill="#2F6F9F"/>
+    <text x="582" y="136" font-size="11" fill="#7a8ea1">S3</text>
+    <text x="582" y="160" font-size="14" font-weight="700" fill="#17324d">结构契约</text>
+    <text x="582" y="180" font-size="10.5" fill="#7a8ea1">单元 / 必答问题</text>
+
+    <rect x="732" y="110" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="732" y="110" width="6" height="84" rx="3" fill="#2F6F9F"/>
+    <text x="750" y="136" font-size="11" fill="#7a8ea1">S4</text>
+    <text x="750" y="160" font-size="14" font-weight="700" fill="#17324d">呈现规范</text>
+    <text x="750" y="180" font-size="10.5" fill="#7a8ea1">比例 / 字号 / 目检</text>
+
+    <rect x="900" y="110" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="900" y="110" width="6" height="84" rx="3" fill="#3f8f6b"/>
+    <text x="918" y="136" font-size="11" fill="#7a8ea1">S5</text>
+    <text x="918" y="160" font-size="14" font-weight="700" fill="#17324d">五层门禁</text>
+    <text x="918" y="180" font-size="10.5" fill="#7a8ea1">证据 / 结构 / 呈现</text>
+
+    <rect x="1068" y="110" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="1068" y="110" width="6" height="84" rx="3" fill="#2F6F9F"/>
+    <text x="1086" y="136" font-size="11" fill="#7a8ea1">S6</text>
+    <text x="1086" y="160" font-size="14" font-weight="700" fill="#17324d">脚本化</text>
+    <text x="1086" y="180" font-size="10.5" fill="#7a8ea1">读 / 产 / 写三类</text>
+  </g>
+
+  <!-- Arrows row 1 -->
+  <g stroke="#9db3c6" stroke-width="1.6" fill="none">
+    <path d="M212 152 H224" marker-end="url(#a)"/>
+    <path d="M380 152 H392" marker-end="url(#a)"/>
+    <path d="M548 152 H560" marker-end="url(#a)"/>
+    <path d="M716 152 H728" marker-end="url(#a)"/>
+    <path d="M884 152 H896" marker-end="url(#a)"/>
+    <path d="M1052 152 H1064" marker-end="url(#a)"/>
+  </g>
+
+  <!-- Down connector -->
+  <path d="M1144 194 V236 H1120" stroke="#9db3c6" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+
+  <!-- Row 2 (snake, right to left) -->
+  <g>
+    <rect x="1068" y="248" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="1068" y="248" width="6" height="84" rx="3" fill="#2F6F9F"/>
+    <text x="1086" y="274" font-size="11" fill="#7a8ea1">S7</text>
+    <text x="1086" y="298" font-size="14" font-weight="700" fill="#17324d">能力调度</text>
+    <text x="1086" y="318" font-size="10.5" fill="#7a8ea1">阶段 / 证据 / 兜底</text>
+
+    <rect x="900" y="248" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="900" y="248" width="6" height="84" rx="3" fill="#d98b2b"/>
+    <text x="918" y="274" font-size="11" fill="#7a8ea1">S8</text>
+    <text x="918" y="298" font-size="14" font-weight="700" fill="#17324d">交付草稿</text>
+    <text x="918" y="318" font-size="10.5" fill="#7a8ea1">人工确认后写入</text>
+
+    <rect x="732" y="248" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="732" y="248" width="6" height="84" rx="3" fill="#d98b2b"/>
+    <text x="750" y="274" font-size="11" fill="#7a8ea1">S9</text>
+    <text x="750" y="298" font-size="14" font-weight="700" fill="#17324d">复盘回流</text>
+    <text x="750" y="318" font-size="10.5" fill="#7a8ea1">台账 / 规则四路落盘</text>
+
+    <rect x="564" y="248" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="564" y="248" width="6" height="84" rx="3" fill="#2F6F9F"/>
+    <text x="582" y="274" font-size="11" fill="#7a8ea1">S10</text>
+    <text x="582" y="298" font-size="14" font-weight="700" fill="#17324d">编排规则</text>
+    <text x="582" y="318" font-size="10.5" fill="#7a8ea1">单人负责 / 目录隔离</text>
+
+    <rect x="396" y="248" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="396" y="248" width="6" height="84" rx="3" fill="#3f8f6b"/>
+    <text x="414" y="274" font-size="11" fill="#7a8ea1">S11</text>
+    <text x="414" y="298" font-size="14" font-weight="700" fill="#17324d">上线自检</text>
+    <text x="414" y="318" font-size="10.5" fill="#7a8ea1">自动项 + 目检项</text>
+
+    <rect x="228" y="248" width="152" height="84" rx="10" fill="#ffffff" stroke="#dbe5ef"/>
+    <rect x="228" y="248" width="6" height="84" rx="3" fill="#d98b2b"/>
+    <text x="246" y="274" font-size="11" fill="#7a8ea1">S12</text>
+    <text x="246" y="298" font-size="14" font-weight="700" fill="#17324d">首篇试跑</text>
+    <text x="246" y="318" font-size="10.5" fill="#7a8ea1">手写 → 门禁 → 交付</text>
+  </g>
+
+  <!-- Arrows row 2 pointing left -->
+  <g stroke="#9db3c6" stroke-width="1.6" fill="none">
+    <path d="M1064 290 H1056" marker-end="url(#a)"/>
+    <path d="M896 290 H888" marker-end="url(#a)"/>
+    <path d="M728 290 H720" marker-end="url(#a)"/>
+    <path d="M560 290 H552" marker-end="url(#a)"/>
+    <path d="M392 290 H384" marker-end="url(#a)"/>
+  </g>
+
+  <!-- Legend -->
+  <g>
+    <rect x="60" y="392" width="14" height="14" rx="3" fill="#2F6F9F"/>
+    <text x="82" y="404" font-size="12.5" fill="#41576b">可脚本化 / 自动执行</text>
+    <rect x="260" y="392" width="14" height="14" rx="3" fill="#d98b2b"/>
+    <text x="282" y="404" font-size="12.5" fill="#41576b">必须人来拍板</text>
+    <rect x="440" y="392" width="14" height="14" rx="3" fill="#3f8f6b"/>
+    <text x="462" y="404" font-size="12.5" fill="#41576b">门禁校验，可机检</text>
+  </g>
+
+  <text x="60" y="446" font-size="12.5" fill="#7a8ea1">失败回退：证据/图片问题回 S2 增量补；结构/表达问题回 S3—S4 改稿重跑；临时目录每次自清理；连续 3 轮失败转人工裁决。</text>
+  <text x="60" y="470" font-size="12.5" fill="#7a8ea1">串并行：同一篇严格串行；不同选题因目录隔离可并行；共享台账与外部写入必须串行。</text>
+
+  <defs>
+    <marker id="a" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L8 4 L0 8 Z" fill="#9db3c6"/>
+    </marker>
+  </defs>
+</svg>
