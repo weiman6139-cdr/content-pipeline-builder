@@ -5,8 +5,6 @@
 
 ![Production output example](assets/banner-production.png)
 
-<p align="center"><sub>生产效果图示：一次实际生产记录（左：流程执行与门禁结果；右：成稿页面与图表输出）</sub><br><sub>Production output illustration: a real production run (left: pipeline execution and gate results; right: the finished article page with charts)</sub></p>
-
 **中文** | [English](#english)
 
 ---
