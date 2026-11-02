@@ -3,9 +3,9 @@
 > 用一个 skill，带你从零搭出半自动内容生产流水线。  
 > A guided skill that helps you build a semi-automated content pipeline step by step.
 
-![Pipeline banner](assets/banner.jpg)
+![README preview](assets/banner.png)
 
-<p align="center"><sub>生产效果图示：由选题到复盘的半自动生产链路示意（AI 生成视觉稿，仅作流程示意，非实际运行界面）</sub><br><sub>Production flow illustration: a semi-automated pipeline from topic selection to review (AI-generated visual, illustrative only, not an actual interface)</sub></p>
+<p align="center"><sub>页面效果图示：仓库首页的实际渲染截图（含标题、简介、头图与流程图预览）</sub><br><sub>Page illustration: the repository landing page as rendered, including title, summary, banner and pipeline preview</sub></p>
 
 **中文** | [English](#english)
 
@@ -100,7 +100,7 @@ content-pipeline-builder/
 │   └── skill-routing.md              # 阶段 → 能力 → 证据 → 何时不用
 └── assets/
     ├── platform_profile.template.yaml # 平台画像卡模板
-    ├── banner.jpg
+    ├── banner.png
     └── pipeline-overview.svg
 ```
 
@@ -215,7 +215,7 @@ content-pipeline-builder/
 │   └── skill-routing.md              # Stage → capability → evidence → when not to use
 └── assets/
     ├── platform_profile.template.yaml # Platform profile template
-    ├── banner.jpg
+    ├── banner.png
     └── pipeline-overview.svg
 ```
 
