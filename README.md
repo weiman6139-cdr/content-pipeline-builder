@@ -3,9 +3,9 @@
 > 用一个 skill，带你从零搭出半自动内容生产流水线。  
 > A guided skill that helps you build a semi-automated content pipeline step by step.
 
-![README preview](assets/banner.png)
+![Production output example](assets/banner.png)
 
-<p align="center"><sub>页面效果图示：仓库首页的实际渲染截图（含标题、简介、头图与流程图预览）</sub><br><sub>Page illustration: the repository landing page as rendered, including title, summary, banner and pipeline preview</sub></p>
+<p align="center"><sub>生产效果图示：一次实际生产记录（左：流程执行与门禁结果；右：成稿页面与图表输出）</sub><br><sub>Production output illustration: a real production run (left: pipeline execution and gate results; right: the finished article page with charts)</sub></p>
 
 **中文** | [English](#english)
 
