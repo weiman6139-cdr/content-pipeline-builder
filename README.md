@@ -5,6 +5,8 @@
 
 ![Pipeline banner](assets/banner.jpg)
 
+<p align="center"><sub>生产效果图示：由选题到复盘的半自动生产链路示意（AI 生成视觉稿，仅作流程示意，非实际运行界面）</sub><br><sub>Production flow illustration: a semi-automated pipeline from topic selection to review (AI-generated visual, illustrative only, not an actual interface)</sub></p>
+
 **中文** | [English](#english)
 
 ---
