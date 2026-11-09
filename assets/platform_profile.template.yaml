@@ -4,6 +4,9 @@
 
 platform: <平台名>
 
+# 对标账号：填名称/链接；用户明确说没有就写 not_provided；未问过写 待验证
+benchmark: <待验证>
+
 # text = 文字主导型（读者在正文完成阅读）
 # image = 图片主导型（读者在图片卡片完成阅读）
 carrier: text
