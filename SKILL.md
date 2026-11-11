@@ -9,7 +9,7 @@ description: Step-by-step guidance to build a semi-automated content production 
 
 ## 运行方式
 
-1. 先读 `docs/PIPELINE_METHODOLOGY.md`（若存在）。它是本 skill 的方法论正文；本文件负责"怎么带人做"。
+1. 先读 `references/methodology.md`（随本 skill 自带的方法论正文）；用户项目里已有 `docs/PIPELINE_METHODOLOGY.md` 时，以项目内版本为准。本文件负责"怎么带人做"。
 2. 维护 `docs/pipeline_build_state.md` 作为进度台账。不存在就创建，每完成一步更新一次。
 3. 每轮最多问 3 个问题，缺什么问什么，不要一次性倒出全部步骤；必填项优先，可选项（对标账号）也必须提示一次，用户明确说没有才跳过。S7 询问用户倾向 skill 的那一问走同一额度；S7 第 4 步的候选清单是逐条确认，不算提问额度。
 4. 所有产出写进用户工作区；不要只在对话里描述。写文件前说明路径。
