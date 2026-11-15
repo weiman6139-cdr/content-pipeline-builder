@@ -128,11 +128,11 @@ description: Step-by-step guidance to build a semi-automated content production 
 
 1. 先说明本环节要做什么、验收准则是什么，再开始找。
 2. 问用户：有没有本项目倾向用的 skill（名称或能力描述）。用户给的优先纳入，判定不适用要说明理由。
-3. 用 `find-skills` 按已确认的项目方向，逐环节检索可适配的 skill；环境里没有 `find-skills` 时，以当前会话可用能力清单为准，并说明无法检索。
+3. 用本 skill 自带的 `scripts/find_skills.py` 检索（内置能力，不依赖宿主是否装了别的 skill）：按项目方向准备 3—5 个具体检索词，跑 `python3 scripts/find_skills.py -q 词1 -q 词2 --out data/skill_scan.json`。它扫描项目、用户级、插件级 skill 目录，按 name/description/正文打分，输出候选清单与 sha256。宿主另有语义检索类 skill 时可再补一轮，但检索本身不依赖它。
 4. 把候选整理成清单交给用户选择，逐条给建议与理由：推荐 / 不推荐、放哪个阶段、产出什么证据、何时不该用、是否只是兜底。
 5. 用户逐条确认后，写入 `docs/skill_plan.md`。S7 完成以用户确认为准，不以"已列出清单"为准。
 
-- 产出：`docs/skill_plan.md`（阶段 → 能力 → 证据 → 何时不用）+ 用户确认记录。
+- 产出：`docs/skill_plan.md`（阶段 → 能力 → 证据 → 何时不用）+ `data/skill_scan.json`（检索证据）+ 用户确认记录。
 - 验收：有用户明确确认；每个被选用的能力都有"命令 + 退出码 + 输出文件 + 哈希"；不适用的写了理由；兜底能力默认关闭。
 
 ### S8 交付
